@@ -2,22 +2,21 @@
 
 Occ-Traj120 is a trajectory dataset that contains occupancy representations of different local-maps with associated trajectories. Thise dataset contains 400 locally-structured maps with occupancy representation and roughly around 120K trajectories in total.
 
-<div class="row">
 <p align="center">
-    <img src="docs/example-2.gif" alt="" style="width:30%">
-    <img src="docs/example-1.gif" alt="" style="width:30%">
-    <img src="docs/example-3.gif" alt="" style="width:30%">
-    </p>
-</div>
-
+    <img src="docs/example-2.gif" alt="" width="280">
+    <img src="docs/example-1.gif" alt="" width="280">
+    <img src="docs/example-3.gif" alt="" width="280">
+</p>
 
 ## Dataset contents
 
 <div>
-    <p style="float: right;"><img width="350" height="auto" src="docs/length_stats.png" alt="" /></p>
     <p>
     There is a wide range of trajectories within a given map, and each one of them has a different number of time-steps and travel distance.
     </p>
+    <p align="center">
+        <img width="400" height="auto" src="docs/paired_plot_traj_time-length.png" alt="" />
+        <img width="300" height="auto" src="docs/length_stats.png" alt="" /></p>
     <p>
     The dataset also contains trajectories that might not be an optimal path and diverged from one other.
     This fact is shown from the diverse range of distribution in distribution plots.
@@ -25,22 +24,13 @@ Occ-Traj120 is a trajectory dataset that contains occupancy representations of d
     </p>
 </div>
 
-
-<!-- <div style="clear: left;">
-    <p style="float: left;"><img src="http://placekitten.com/g/200/200" height="200" width="200" border="1px"></p>
-    <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
-</div> -->
-
-
-<!-- <p align="right">
-</p> -->
 <p align="center">
     <img width="700" height="auto" src="docs/dist_angle.png" alt="" />
 </p>
 
 ## Dataset format details
 
-Each file name in the dataset are in the format of
+Each file name in the `dataset/` folder are in the format of
 ```
 occtraj_$MD5_{map,trajs}.txt
 ```
