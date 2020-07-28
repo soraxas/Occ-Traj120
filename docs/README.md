@@ -1,11 +1,15 @@
+---
+layout: default
+---
+
 # Occ-Traj120
 
 Occ-Traj120 is a trajectory dataset that contains occupancy representations of different local-maps with associated trajectories. Thise dataset contains 400 locally-structured maps with occupancy representation and roughly around 120K trajectories in total.
 
 <p align="center">
-    <img src="docs/images/example-2.gif" alt="" width="280">
-    <img src="docs/images/example-1.gif" alt="" width="280">
-    <img src="docs/images/example-3.gif" alt="" width="280">
+    <img src="images/example-2.gif" alt="" width="280">
+    <img src="images/example-1.gif" alt="" width="280">
+    <img src="images/example-3.gif" alt="" width="280">
 </p>
 
 ## Dataset contents
@@ -15,8 +19,8 @@ Occ-Traj120 is a trajectory dataset that contains occupancy representations of d
     There is a wide range of trajectories within a given map, and each one of them has a different number of time-steps and travel distance.
     </p>
     <p align="center">
-        <img width="400" height="auto" src="docs/images/paired_plot_traj_time-length.png" alt="" />
-        <img width="300" height="auto" src="docs/images/length_stats.png" alt="" /></p>
+        <img width="400" height="auto" src="images/paired_plot_traj_time-length.png" alt="" />
+        <img width="300" height="auto" src="images/length_stats.png" alt="" /></p>
     <p>
     The dataset also contains trajectories that might not be an optimal path and diverged from one other.
     This fact is shown from the diverse range of distribution in distribution plots.
@@ -25,7 +29,7 @@ Occ-Traj120 is a trajectory dataset that contains occupancy representations of d
 </div>
 
 <p align="center">
-    <img width="700" height="auto" src="docs/images/dist_angle.png" alt="" />
+    <img width="700" height="auto" src="images/dist_angle.png" alt="" />
 </p>
 
 ## Dataset format details
